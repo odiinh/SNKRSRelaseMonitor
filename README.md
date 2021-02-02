@@ -25,3 +25,19 @@ Line 98
 .setText("<@&ROLE-ID>")
 ```
 Copy the role id of your alerts role and paste it in here. So the bot will ping the users who want to be notified.
+
+
+## Running/Utillising the bot
+After completing the steps above, run server.js (by doing 'node server' in a shell set to the directory) and open your web browser and go to the home page localhost:3000 or *example*.eu-west-2.elasticbeanstalk.com. It should look like this
+[Imgur Link](https://i.imgur.com/QRprWcg.png)
+
+- Type in the interval that you would like the bot to run e.g. 60
+- Press start bot
+
+If you want to change the interval go the the home page and **CLICK STOP SCRIPT** you must do this otherwise the bot will break, then put in the new interval and start the script again
+
+To stop the monitor, click the 'STOP SCRIPT' button on the homepage.
+
+
+## Deploying to an AWS Server
+While running and testing the bot I used AWS Free Tier. To upload zip all the files up and upload as a new version of an application. This should work, however you may need to do some internet research, if you are new.
