@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css">
+    <title>SNKRS BOT</title>
+</head>
+<body>
+    <h1>a nike SNKRS monitoring bot by Odiin</h1>
+    <form action="/runScript" method="post">
+        <br>
+        RECURRANCE INTERVAL (minutes): <input name="recurInterval" type="number" /> <br />
+        <input type="submit" value="RUN SCRIPT" /> <br />
+
+        <i>To change the timing first stop the script, change the value and then hit start</i>
+    </form>
+    
+    <form action="/stopScript" method="post">
+        <br>
+        <input type="submit" value="STOP SCRIPT" />
+    </form>
+</body>
+</html>

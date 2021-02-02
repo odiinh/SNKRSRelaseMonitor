@@ -1,0 +1,17 @@
+{
+  "name": "neonnike",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "odiin",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "jssoup": "0.0.12",
+    "webhook-discord": "^3.7.7"
+  }
+}
